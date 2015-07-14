@@ -25,3 +25,4 @@ GIT_SSL_NO_VERIFY=true git svn clone https://svn.php.net/repository/phpdoc/modul
 # openssl s_client -showcerts -connect svn.php.net:443 </dev/null 2>/dev/null|openssl x509 -outform PEM > svn.php.net.pem
 # GIT_SSL_CAINFO=svn.php.net.pem git svn clone https://svn.php.net/repository/phpdoc/modules/doc-en doc-en
 
+# @todo Follow the next steps here: https://www.sammyk.me/how-to-contribute-to-php-documentation
